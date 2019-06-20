@@ -22,7 +22,7 @@ while(contador < numero):
         nota1 = int(nota1)
         nota2 = int(nota2)
         if (nota1 < 0) or (nota2 < 0):
-            raise NumeroNegativosError("No se puede ingresar valor menore a cero")
+            raise NumeroNegativosError("No se puede ingresar valores menores a cero")
         
         if len(nombre)==1:
             raise TamanioDatosPersonalesError("El tamaño de la cadena %s, debe" \
